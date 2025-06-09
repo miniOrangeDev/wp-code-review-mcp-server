@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wp-code-review-mcp": {
+      "command": "node",
+      "args": ["/path/to/wp-code-review-mcp/build/index.js"],
+      "env": {
+        "GUIDELINES_URL": "https://yourdomain.com/guidelines"
+      }
+    }
+  }
+} 
