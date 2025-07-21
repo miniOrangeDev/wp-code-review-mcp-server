@@ -2,6 +2,10 @@
 
 A lightweight, configurable MCP (Model Context Protocol) server for development teams. Fetches coding guidelines, security rules, and validation patterns from external sources or URL where you have hosted your custom guidelines.
 
+<a href="https://glama.ai/mcp/servers/@miniOrangeDev/wp-code-review-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@miniOrangeDev/wp-code-review-mcp-server/badge" alt="WordPress Code Review Server MCP server" />
+</a>
+
 ## 🚀 **Key Features**
 
 - ✅ **No hardcoded rules** - Fetch guidelines from any URL
@@ -17,7 +21,6 @@ A lightweight, configurable MCP (Model Context Protocol) server for development 
 
 ## 📋 **Prerequisites**
 - Node.js installed (v18+)
-
 
 ## 🛠 **Installation & Setup**
 
@@ -71,12 +74,10 @@ Your guidelines server should serve these files:
 - `/validation-rules.md` - Code validation rules
 - `/security-rules.md` - Security scanning rules
 
-
 ### **Step 5: Test in Cursor**
 1. Open any PHP file in Cursor
 2. Ask the AI: "Check this code for security issues: `class mo_Test {}`"
 3. The AI should detect the short prefix violation!
-
 
 ## 🔧 **Troubleshooting**
 
@@ -91,7 +92,6 @@ Edit the files in `sample-guidelines/html/` to add your own:
 - Company-specific guidelines
 
 The MCP server automatically uses updated rules without restart.
-
 
 ## 📄 **License**
 
